@@ -1,0 +1,5 @@
+second = int(input('Введите количетсво секунд'))
+hours = int(second // 60 // 60)
+minute = int(second // 60 % 60)
+second = int(second % 60 % 60)
+print(f'{hours}:{minute}:{second}')
